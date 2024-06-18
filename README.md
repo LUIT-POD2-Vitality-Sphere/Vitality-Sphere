@@ -1,17 +1,17 @@
 # Vitality-Sphere
 Vitality Sphere is a health and wellness company dedicated to improving the well-being of its clients through a variety of services and products.Vitality Sphere will achieve a more scalable, cost-effective, and efficient infrastructure for their website, along with valuable insights into user interactions and a streamlined deployment process.
 
-#Purpose:
+# Purpose:
 This document provides standardized naming conventions for AWS resources created during projects associated with Vitality Sphere. These guidelines ensure that all resources are named consistently, making them easily identifiable, searchable, and manageable across the team.
 
-#Scope:
+# Scope:
 Applies to all AWS resources created by Engineers at Vitality Sphere, including but not limited to EC2 instances, S3 buckets, RDS databases, and Lambda functions.
 
-#Naming Convention Format:
+# Naming Convention Format:
 All AWS resources must adhere to the following naming convention format:
 <VitalitySphere>-<Environment>-<ResourceType>-<UniqueID>-<FunctionalDescription>
 
-#Components Explanation:
+# Components Explanation:
 VitalitySphere:
 A constant prefix to denote the company associated with the resource.
 Example: VitalitySphere
@@ -29,7 +29,7 @@ Example: 001, TeamA
 FunctionalDescription:
 A brief descriptive name explaining the resource's purpose.
 Example: Webserver, UserDB
-#Examples:
+# Examples:
 EC2 instance for production web server: VitalitySphere-Prod-EC2-001-Webserver
 S3 bucket for development data storage: VitalitySphere-Dev-S3-002-DataStore
 RDS database for production user profiles: VitalitySphere-Prod-RDS-003-UserProfiles
